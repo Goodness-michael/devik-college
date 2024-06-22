@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{background-color: rgb(6, 6, 54);
+            color: azure;
+            text-align: center;
+            border: 5px solid rgb(2, 2, 18);
+            height: 400px;
+            }
+            .topnav a{
+                float: right;
+                display: block;
+                text-align: center;
+                padding: 30px 30px;
+                text-decoration: none;
+            }
+            .topnav a:hover{
+                background-color: rgb(115, 30, 30);
+                color: aliceblue;
+            }
+            .colum{
+                float: left;
+                width: 20%;
+                padding: 30px;
+                margin-left: 100px;
+            }
+            .row::after{
+                /* margin-left: 200px; */
+                content: "";
+                display: table;
+                clear: both;
+            }
+            div.gallery{
+                margin: 30px;
+                border: 1px solid #ccc;
+                float: left;
+                width: 200px;
+                /* position: relative; */
+            }
+            div.gallery:hover{
+                border: 2px solid#ccc;
+            }
+            div.gallery image{
+                width: 100%;
+                height: auto;
+                margin-left: 20px;
+            }
+            div.desc{
+                padding: 15px;
+                text-align: center;
+            }
+            @media screen and( max-width: 600px){
+                .colum.side,
+                .colum.middle{
+                     width: 100%;
+                    }
+                
+            }
+           div .footer{
+                background-color: #f2f2f2;
+                padding: 10px;
+                /* text-align: center; */
+            }
+            
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1><img src="devik college.jpg"  alt="logo" width="200px" height="150px" > <br> Devik Vocational College</h1>
+        <p>....The leading vocational college in Africa</p> <br><br><br>
+        
+        
+        </div>
+        <div class="topnav a">
+            <a href="admission.html">Admission</a>
+            <!-- <a href="#">Requirements</a> -->
+            <a href="tuition.html">Tuition</a>
+            <a href="scholarship.html">Scholarship</a>
+            <a href="application.html">Application</a>
+            </div>
+           
+    <div> <img src="university image.jpg" alt=" school" height="300px" width="100%"></div>
+    <div class="row">
+
+        <div class="colum">
+            <h2>Our study system</h2>
+        <p>Devik college embraces a practical based system of education, which helps to give our students the confidence to practice in a work enviroment outside the school setting.We work as volunteers for alot of companies. We carry out real  projects within and outside the states.These knowledge help to improve the quality of our teaching to industry standard, tailoring our teaching to the trending needs of the society.Devik college is the best place for vocational studies.</p>
+    </div>
+<div class="colum">
+    <h2>News and Event</h2>
+<p>On  the 27th day of febuary 2024 Devik vocational school held a 3 day summit titled: improving our world with technology.Prominent professors from around the world were present.
+    <img src="seminar.jpg" alt=" seminar" height="200px" width="200px"> 
+</p>
+<hr>
+<h2>2024 sports festival</h2>
+<p>The 2024 annual sports festival was held on the 24th day of march. it was a warm and intresting activity that involved inter-school competition between different schools.our sports festival serves as an extracuricular activity which enables our students to stay fit and healthy</p>
+<img src="sports.jpeg" alt="sports">
+</div>
+<div class="colum">
+    <h2>Applications  starts  every April 15th each year!!! </h2>
+<p>All students who intent to enroll in our orientation program should enroll on time.Registration into our school require medical examination which can be carried out within our health facility</p>
+<h2 style="font-size: 60px;">Adress</h2>
+<p style="font-size: 30px; line-height: 50px;color: rgb(63, 61, 61);"              >
+
+    We are located at number 15 Greenville Avenue Edinburg Scotland.United kingdom.
+    </p>
+</div>
+</div>
+
+
+
+<div class="gallery">
+<img src="automobile.jpeg" alt="automechanic" height="200px" width="200px">
+<div class="desc">Automobile Engineering </div> 
+</div>
+<div class="gallery">
+    <img src="hair stylist.jpeg" alt="stylist" height="200px" width="200px">
+<div class="desc"> Hair saloon</div>
+</div>
+<div class="gallery">
+    <img src="electrician.jpeg" alt="electrician" height="200px" width="200px">
+    <div class="desc">Electrical Engineering</div>
+</div>
+<div class="gallery"> <img src="chef.jpeg" alt="chef" height="200px" width="200px">
+<div class="desc">Hotel Management</div>
+</div><hr>
+
+<footer><p>Devikcollege@gmail.com 
+
+    contact: +49045672345 <br>
+    copywrite(c) 2024
+</p>  </footer>
+     
+    
+</div>
+
+</body>
+</html>
